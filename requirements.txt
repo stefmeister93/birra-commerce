@@ -1,0 +1,25 @@
+Vendita di birre:
+    - Modello dati;
+    - Autenticazione
+        -> Pagina di Login, Signup e Forgot Password
+        -> Logica di Login, Signup, Forgot Password, Attivazione account e Logout
+        -> Logica di invio mail
+    - Catalogo birre
+        -> Pagina del Prodotto, Pagina di vetrina (Logica relativa alle pagine)
+    - Funzionalità Ecommerce
+        -> Pagina del carrello, Aggiunta prodotti e delete prodotti dal carrello
+        -> Checkout per eseguire il pagamento
+        -> Download PDF per la fatturazione
+        -> Profilo Utente 
+            -> Modifica dati indirizzo
+            -> Pagina storico ordini effettuati
+    - Pagina Contattaci/AboutUs
+    - Pagina di ricerca 
+        -> filtering dei prodotti in base a prezzo, disponibilità, marchio, colore, tipo, nazionalità
+
+NOTE:
+    - campo "stato"  tabella "ordine" assume solo i valori ("Bozza", "Preso in carico", "Consegnato", "Annullato")
+    - Possibili evolutive:
+        + Sistema di Reso;
+        + Interfaccia Back-office -> 
+            Sviluppo lato admin del sito (gestione ordini, gestione utenti, gestione catalogo birre e item), gestione ruoli utenti;
